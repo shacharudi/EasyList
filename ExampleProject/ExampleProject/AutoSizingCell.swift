@@ -16,7 +16,7 @@ let cellOrangeColor = UIColor.init(red: 240 / 255, green: 183 / 255, blue: 114 /
 class AutoSizingCell: UITableViewCell {
     let someLabel = UILabel.init()
 
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
         self.contentView.addSubview(someLabel)
@@ -43,7 +43,7 @@ class AutoSizingCell: UITableViewCell {
 class AutoSizingCell2: UITableViewCell {
     let someLabel = UILabel.init()
 
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
         self.contentView.addSubview(someLabel)

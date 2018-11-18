@@ -18,7 +18,7 @@ public class ListTypeAutoSizingCells: ListType {
 
     public func configureTableView(tableView: UITableView) {
         tableView.estimatedRowHeight = self.estimatedRowsHeight
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
     }
 
     public func getDataSourceAndDelegate() -> UITableViewDelegate & UITableViewDataSource {
